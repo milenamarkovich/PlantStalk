@@ -27,6 +27,7 @@ import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.support.annotation.StringRes;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -168,7 +169,7 @@ public class DeviceControlActivity extends Activity {
         mGattServicesList.setOnChildClickListener(servicesListClickListner);
     mConnectionState = (TextView) findViewById(R.id.connection_state);
     */
-        mDataField = (TextView) findViewById(R.id.data_value);
+        mDataField = findViewById(R.id.data_value);
 
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -228,7 +229,7 @@ public class DeviceControlActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void updateConnectionState(final int resourceId) {
+    private void updateConnectionState(@androidx.annotation.StringRes @StringRes final int resourceId) {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {

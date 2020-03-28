@@ -1,0 +1,183 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:20:1-52:12
+INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:20:1-52:12
+INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:20:1-52:12
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\b2d2c38896f8f1cad96788b0d9b0e10d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\c91dd73203610e15f3864be98e342b86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\b1fe47deab18366a21c013cc99ecb10b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\45508a9a409e304118bbb01ab8b397c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\d5b2c3217ea8f260889690b2f48fc050\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\aa3784080e761ab36c9d3396a74b249a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\697be02295b010d28e18329a8436a4e5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\681893963081cf9fc82d3c3059a45d15\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\7d549df36d8f22970a0ca9c3991b06d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\403f0b4146fc163cd735c9bd666c52e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\de2fe7cfe278b23cd654f9d91788bb5f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\818e3fa90fdba9501f5df083492b0b21\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\36a915bcce6e671e6e5a92dc3e50ebf3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\4c1a90bb9757719ce551c7dd64ed1ee6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\fb2127b7b35f771c7dc2f6884db7d6d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\774a88a0ebffa27f72576c49e7d34a2e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\5136493585dd98e167e0e559cb6a25a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\8fbc0e67b70bce551123d191e9e24c21\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\4f5b54daf8cee56c57c8512489f6ccba\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\119d2a7fc9ab1e944890908a2df68cfb\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\93380c8ad1b6f51e31a705ae243ef717\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\60f21b1837bffd7432d970891cf23c0f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\baaa3077e1bc19c141faf0c27f7ae022\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\0fbad3084b02b39cf9ce137b3926744e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\9746c3d3d2b8432919bd1f35cd671ca0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\e3d48f97de07b9856dccc40699fa7e52\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\62fd0a009f078b46d85b94021041b21c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\295be7c8d719c9dc5f52ac3b94bdf548\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\c0926e6b659ae1623ee38241550efa1b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\62cbcd0132acf33889815bc48bf55c65\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:20:1-52:12
+INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:20:1-52:12
+	package
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:21:5-50
+	android:versionName
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:23:5-30
+		INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:20:11-69
+	android:versionCode
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:22:5-28
+		INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+uses-feature#android.hardware.bluetooth
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:31:5-62
+	android:name
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:31:19-60
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:34:5-73
+	android:name
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:34:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:35:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:36:5-78
+	android:name
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:36:22-76
+application
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:38:5-50:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\4f5b54daf8cee56c57c8512489f6ccba\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\4f5b54daf8cee56c57c8512489f6ccba\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\119d2a7fc9ab1e944890908a2df68cfb\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\119d2a7fc9ab1e944890908a2df68cfb\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\4f5b54daf8cee56c57c8512489f6ccba\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:38:18-50
+	android:icon
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:39:9-45
+	android:theme
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:40:9-56
+activity#com.example.android.bluetoothlegatt.DeviceScanActivity
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:41:9-47:20
+	android:label
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:41:19-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:44:17-68
+	android:name
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:45:27-74
+activity#com.example.android.bluetoothlegatt.DeviceControlActivity
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:48:9-58
+	android:name
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:48:19-56
+service#com.example.android.bluetoothlegatt.BluetoothLeService
+ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:49:9-77
+	android:enabled
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:49:53-75
+	android:name
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml:49:18-52
+uses-sdk
+INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\b2d2c38896f8f1cad96788b0d9b0e10d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\b2d2c38896f8f1cad96788b0d9b0e10d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\c91dd73203610e15f3864be98e342b86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\c91dd73203610e15f3864be98e342b86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\b1fe47deab18366a21c013cc99ecb10b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\b1fe47deab18366a21c013cc99ecb10b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\45508a9a409e304118bbb01ab8b397c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\45508a9a409e304118bbb01ab8b397c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\d5b2c3217ea8f260889690b2f48fc050\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\d5b2c3217ea8f260889690b2f48fc050\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\aa3784080e761ab36c9d3396a74b249a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\aa3784080e761ab36c9d3396a74b249a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\697be02295b010d28e18329a8436a4e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\697be02295b010d28e18329a8436a4e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\681893963081cf9fc82d3c3059a45d15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\681893963081cf9fc82d3c3059a45d15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\7d549df36d8f22970a0ca9c3991b06d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\7d549df36d8f22970a0ca9c3991b06d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\403f0b4146fc163cd735c9bd666c52e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\403f0b4146fc163cd735c9bd666c52e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\de2fe7cfe278b23cd654f9d91788bb5f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\de2fe7cfe278b23cd654f9d91788bb5f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\818e3fa90fdba9501f5df083492b0b21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\818e3fa90fdba9501f5df083492b0b21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\36a915bcce6e671e6e5a92dc3e50ebf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\36a915bcce6e671e6e5a92dc3e50ebf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\4c1a90bb9757719ce551c7dd64ed1ee6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\4c1a90bb9757719ce551c7dd64ed1ee6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\fb2127b7b35f771c7dc2f6884db7d6d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\fb2127b7b35f771c7dc2f6884db7d6d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\774a88a0ebffa27f72576c49e7d34a2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\774a88a0ebffa27f72576c49e7d34a2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\5136493585dd98e167e0e559cb6a25a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\5136493585dd98e167e0e559cb6a25a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\8fbc0e67b70bce551123d191e9e24c21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\8fbc0e67b70bce551123d191e9e24c21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\4f5b54daf8cee56c57c8512489f6ccba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\4f5b54daf8cee56c57c8512489f6ccba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\119d2a7fc9ab1e944890908a2df68cfb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\119d2a7fc9ab1e944890908a2df68cfb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\93380c8ad1b6f51e31a705ae243ef717\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\93380c8ad1b6f51e31a705ae243ef717\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\60f21b1837bffd7432d970891cf23c0f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\60f21b1837bffd7432d970891cf23c0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\baaa3077e1bc19c141faf0c27f7ae022\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\baaa3077e1bc19c141faf0c27f7ae022\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\0fbad3084b02b39cf9ce137b3926744e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\0fbad3084b02b39cf9ce137b3926744e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\9746c3d3d2b8432919bd1f35cd671ca0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\9746c3d3d2b8432919bd1f35cd671ca0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\e3d48f97de07b9856dccc40699fa7e52\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\e3d48f97de07b9856dccc40699fa7e52\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\62fd0a009f078b46d85b94021041b21c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\62fd0a009f078b46d85b94021041b21c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\295be7c8d719c9dc5f52ac3b94bdf548\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\295be7c8d719c9dc5f52ac3b94bdf548\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\c0926e6b659ae1623ee38241550efa1b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\c0926e6b659ae1623ee38241550efa1b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\62cbcd0132acf33889815bc48bf55c65\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\marko\.gradle\caches\transforms-2\files-2.1\62cbcd0132acf33889815bc48bf55c65\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marko\Documents\PlantStalk\BluetoothPlantStalk\BluetoothPlantStalk\Application\src\main\AndroidManifest.xml
