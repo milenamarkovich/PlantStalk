@@ -1,0 +1,4 @@
+#Mon Mar 30 00:09:01 PDT 2020
+base.0=C\:\\Users\\marko\\Documents\\PlantStalk\\BluetoothPlantStalk\\BluetoothPlantStalk\\BluetoothTestConnection\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
