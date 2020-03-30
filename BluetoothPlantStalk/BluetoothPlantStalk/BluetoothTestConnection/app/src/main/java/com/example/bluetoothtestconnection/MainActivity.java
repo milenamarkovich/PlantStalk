@@ -23,8 +23,8 @@ import androidx.core.content.ContextCompat;
 
 public class MainActivity  extends BlunoLibrary {
     private Button buttonScan;
-    private Button buttonSerialSend;
-    private EditText serialSendText;
+    //private Button buttonSerialSend;
+    //private EditText serialSendText;
     private TextView serialReceivedText;
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -50,19 +50,11 @@ public class MainActivity  extends BlunoLibrary {
         serialBegin(115200);													//set the Uart Baudrate on BLE chip to 115200
 
         serialReceivedText=(TextView) findViewById(R.id.serialReveicedText);	//initial the EditText of the received data
-        serialSendText=(EditText) findViewById(R.id.serialSendText);			//initial the EditText of the sending data
+        //serialSendText=(EditText) findViewById(R.id.serialSendText);			//initial the EditText of the sending data
 
-        buttonSerialSend = (Button) findViewById(R.id.buttonSerialSend);		//initial the button for sending the data
-        buttonSerialSend.setOnClickListener(new OnClickListener() {
+        //buttonSerialSend = (Button) findViewById(R.id.buttonSerialSend);		//initial the button for sending the data
+        //buttonSerialSend.setOnClickListener(new OnClickListener() {
 
-            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
-            @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-
-                serialSend(serialSendText.getText().toString());				//send the data to the BLUNO
-            }
-        });
 
         buttonScan = (Button) findViewById(R.id.buttonScan);					//initial the button for scanning the BLE device
         buttonScan.setOnClickListener(new OnClickListener() {

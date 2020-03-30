@@ -121,11 +121,13 @@ public abstract  class BlunoLibrary  extends Activity{
 
     public void onCreateProcess()
     {
-        if(!initiate())
-        {
-            Toast.makeText(mainContext, R.string.error_bluetooth_not_supported,
-                    Toast.LENGTH_SHORT).show();
-            ((Activity) mainContext).finish();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+            if(!initiate())
+            {
+                Toast.makeText(mainContext, R.string.error_bluetooth_not_supported,
+                        Toast.LENGTH_SHORT).show();
+                ((Activity) mainContext).finish();
+            }
         }
 
 
@@ -185,7 +187,9 @@ public abstract  class BlunoLibrary  extends Activity{
                         onConectionStateChange(mConnectionState);
                         mScanDeviceDialog.dismiss();
 
-                        scanLeDevice(false);
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+                            scanLeDevice(false);
+                        }
                     }
                 }).create();
 

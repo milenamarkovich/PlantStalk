@@ -17,9 +17,7 @@
         android:layout_below="@+id/editText2"
         android:layout_alignStart="@+id/editText2"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/serialSendText"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignRight="@+id/serialSendText">
+        android:layout_alignLeft="@+id/editText2">
 
         <TextView
             android:id="@+id/serialReveicedText"
@@ -29,52 +27,25 @@
             android:textSize="10sp"
             android:layout_below="@+id/editText2"
             android:layout_alignStart="@+id/editText2"
-            android:layout_alignEnd="@+id/serialSendText"
             android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/editText2"
-            android:layout_alignRight="@+id/serialSendText" />
+            android:layout_alignLeft="@+id/editText2" />
     </ScrollView>
-
-    <Button
-        android:id="@+id/buttonSerialSend"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/serialSendText"
-        android:layout_alignRight="@+id/serialSendText"
-        android:text="Send Data" />
 
     <TextView
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/serialSendText"
-        android:layout_below="@+id/serialSendText"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="100dp"
         android:ems="10"
         android:text="Received Data:"
         android:textSize="25sp" />
-
-    <EditText
-        android:id="@+id/serialSendText"
-        android:layout_width="310dp"
-        android:layout_height="40dp"
-        android:layout_below="@+id/buttonScan"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
-        android:background="#555555"
-        android:bufferType="editable"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Data sending Area"
-        android:textColor="#999999"
-        android:textSize="20dip" />
 
     <Button
         android:id="@+id/buttonScan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/serialSendText"
         android:layout_alignParentTop="true"
-        android:text="Scan" />
+        android:textColor="@color/design_default_color_primary_dark"
+        android:text="Please Connect To Bluetooth" />
 
 </RelativeLayout>
