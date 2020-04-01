@@ -38,10 +38,10 @@ pinMode (CAPMOIST_OUT, OUTPUT);
 
 void loop() {
 
-  //TestPhoto();
+  TestPhoto();
   TestTempGRD();
-  //TestCondMoist();
-  //TestCapMoist(); 
+  TestCondMoist();
+  TestCapMoist(); 
    
 }
 
