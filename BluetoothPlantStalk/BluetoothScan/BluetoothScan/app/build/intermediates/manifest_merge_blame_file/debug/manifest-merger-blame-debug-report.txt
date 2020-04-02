@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bluetoothscan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12Declare this required feature if you want to make the app available to BLE-capable
+13devices only.  If you want to make your app available to devices that don't support BLE,
+14you should omit this in the manifest.  Instead, determine BLE capability by using
+15PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE)
+16    -->
+17    <uses-feature
+17-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:10:5-89
+18        android:name="android.hardware.bluetooth_le"
+18-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:10:19-63
+19        android:required="true" />
+19-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:10:64-87
+20
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:12:5-67
+21-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:12:22-65
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+22-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:13:5-73
+22-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:13:22-71
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:14:5-80
+23-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:14:22-78
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:15:5-78
+24-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:15:22-76
+25
+26    <application
+26-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:17:5-35:19
+27        android:allowBackup="true"
+27-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:18:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\Nika\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:19:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:20:9-41
+32        android:supportsRtl="true"
+32-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:21:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:22:9-40
+35        <activity
+35-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:23:9-32:20
+36            android:name="com.example.bluetoothscan.MainActivity"
+36-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:24:13-66
+37            android:label="@string/app_name"
+37-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:26:13-45
+38            android:screenOrientation="unspecified" >
+38-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:25:13-52
+39            <intent-filter>
+39-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:27:13-31:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:28:17-69
+40-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:28:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:30:17-77
+42-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:30:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <service
+46-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:33:9-102
+47            android:name="com.example.bluetoothscan.BluetoothLeService"
+47-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:33:18-77
+48            android:enabled="true" />
+48-->C:\Users\Nika\Documents\GitHub\PlantStalk\BluetoothPlantStalk\BluetoothScan\BluetoothScan\app\src\main\AndroidManifest.xml:33:78-100
+49    </application>
+50
+51</manifest>
