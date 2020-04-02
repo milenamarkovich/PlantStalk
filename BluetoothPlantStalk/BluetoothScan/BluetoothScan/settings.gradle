@@ -1,0 +1,2 @@
+rootProject.name='BluetoothScan'
+include ':app'

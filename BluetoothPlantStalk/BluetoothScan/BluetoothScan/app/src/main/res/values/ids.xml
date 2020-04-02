@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="serialReveicedText" type="id" />
+    <item name="serialSendText" type="id" />
+    <item name="buttonSerialSend" type="id" />
+</resources>
