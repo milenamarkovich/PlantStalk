@@ -1,0 +1,170 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ad3b378ef76452a15b2235fd93d33e63\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\142c12bb2f22f8c9813050fad2227ea9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b2d08277adc15e0a9bf27bbd2104f6a7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\644a784b43b30473e76b5f57f79a57b7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\da4f7c5964b230957aa927c8992fcc66\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\59f5198b30d588864b86d3400ef957d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\10fc1aaca819081e3735412665ce5860\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9e0eb5ffc268a09af351f1246a611eac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\5e56cd328c0551f1cc0d7b568fdf47a0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\417addae8ba1819634327e45a3da26f4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\65538fb6a573c5928eaeddc382ce2b45\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\70fe4303d74f77829e28f8d17e45ea01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a4ad417378d1905ce8c5ada01ae8d7a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\a8cf70d8f8cd7b5fdd535dfcdbcd096e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c5e09cbabba51df939a08c596c2f0b23\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\096fd73941feb64a8c73d6bff7bc4ff1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b629959bf13f90673714ab664e3825fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c27c1a8581af48aebf44b83b247e798e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\798eb0d3c56ffd6248f5bd3cd4dd9217\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8b893ca7e1f332b7a3af60031bf8dd39\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e4eb30ef03a354cedddc2b888174b06b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\2f01889edbf61de69eaae61d642df0f3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\17c3cb88a7a4a919245a18609790f99e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5fd54323be2f54034c5dee7034dff49d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\647cf66c17490fdd764b1411ad5d9912\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4be081426955c4330b92698cbe8fd745\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\2919979c1ef4468a930032c8d4c63de0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\bdb1b14644c6f98b580b37449d8e7e29\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\710bedd61f5e67b5b7452ae5e66ac192\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\bb44233331377ea8e683b7bc66bc4ce9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\37d9083c5da8b350a313bf0eb9cd591a\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ad3b378ef76452a15b2235fd93d33e63\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ad3b378ef76452a15b2235fd93d33e63\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b2d08277adc15e0a9bf27bbd2104f6a7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b2d08277adc15e0a9bf27bbd2104f6a7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\798eb0d3c56ffd6248f5bd3cd4dd9217\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\798eb0d3c56ffd6248f5bd3cd4dd9217\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8b893ca7e1f332b7a3af60031bf8dd39\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8b893ca7e1f332b7a3af60031bf8dd39\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\798eb0d3c56ffd6248f5bd3cd4dd9217\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.toolbar_activity.MainActivity
+ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ad3b378ef76452a15b2235fd93d33e63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ad3b378ef76452a15b2235fd93d33e63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\142c12bb2f22f8c9813050fad2227ea9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\142c12bb2f22f8c9813050fad2227ea9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b2d08277adc15e0a9bf27bbd2104f6a7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b2d08277adc15e0a9bf27bbd2104f6a7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\644a784b43b30473e76b5f57f79a57b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\644a784b43b30473e76b5f57f79a57b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\da4f7c5964b230957aa927c8992fcc66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\da4f7c5964b230957aa927c8992fcc66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\59f5198b30d588864b86d3400ef957d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\59f5198b30d588864b86d3400ef957d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\10fc1aaca819081e3735412665ce5860\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\10fc1aaca819081e3735412665ce5860\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9e0eb5ffc268a09af351f1246a611eac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9e0eb5ffc268a09af351f1246a611eac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\5e56cd328c0551f1cc0d7b568fdf47a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\5e56cd328c0551f1cc0d7b568fdf47a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\417addae8ba1819634327e45a3da26f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\417addae8ba1819634327e45a3da26f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\65538fb6a573c5928eaeddc382ce2b45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\65538fb6a573c5928eaeddc382ce2b45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\70fe4303d74f77829e28f8d17e45ea01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\70fe4303d74f77829e28f8d17e45ea01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a4ad417378d1905ce8c5ada01ae8d7a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a4ad417378d1905ce8c5ada01ae8d7a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\a8cf70d8f8cd7b5fdd535dfcdbcd096e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\a8cf70d8f8cd7b5fdd535dfcdbcd096e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c5e09cbabba51df939a08c596c2f0b23\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c5e09cbabba51df939a08c596c2f0b23\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\096fd73941feb64a8c73d6bff7bc4ff1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\096fd73941feb64a8c73d6bff7bc4ff1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b629959bf13f90673714ab664e3825fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b629959bf13f90673714ab664e3825fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c27c1a8581af48aebf44b83b247e798e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c27c1a8581af48aebf44b83b247e798e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\798eb0d3c56ffd6248f5bd3cd4dd9217\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\798eb0d3c56ffd6248f5bd3cd4dd9217\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8b893ca7e1f332b7a3af60031bf8dd39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8b893ca7e1f332b7a3af60031bf8dd39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e4eb30ef03a354cedddc2b888174b06b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e4eb30ef03a354cedddc2b888174b06b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\2f01889edbf61de69eaae61d642df0f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\2f01889edbf61de69eaae61d642df0f3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\17c3cb88a7a4a919245a18609790f99e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\17c3cb88a7a4a919245a18609790f99e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5fd54323be2f54034c5dee7034dff49d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5fd54323be2f54034c5dee7034dff49d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\647cf66c17490fdd764b1411ad5d9912\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\647cf66c17490fdd764b1411ad5d9912\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4be081426955c4330b92698cbe8fd745\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4be081426955c4330b92698cbe8fd745\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\2919979c1ef4468a930032c8d4c63de0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\2919979c1ef4468a930032c8d4c63de0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\bdb1b14644c6f98b580b37449d8e7e29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\bdb1b14644c6f98b580b37449d8e7e29\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\710bedd61f5e67b5b7452ae5e66ac192\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\710bedd61f5e67b5b7452ae5e66ac192\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\bb44233331377ea8e683b7bc66bc4ce9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\bb44233331377ea8e683b7bc66bc4ce9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\37d9083c5da8b350a313bf0eb9cd591a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nika\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\37d9083c5da8b350a313bf0eb9cd591a\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nika\Documents\GitHub\PlantStalk\tool_bar\toolbar_activity\app\src\main\AndroidManifest.xml

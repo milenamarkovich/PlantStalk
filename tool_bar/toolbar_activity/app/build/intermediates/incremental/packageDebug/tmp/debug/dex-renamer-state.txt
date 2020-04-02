@@ -1,0 +1,4 @@
+#Tue Mar 31 22:04:53 PDT 2020
+base.0=C\:\\Users\\Nika\\Documents\\GitHub\\PlantStalk\\tool_bar\\toolbar_activity\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
