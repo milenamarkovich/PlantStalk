@@ -85,13 +85,12 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/divider2"
-        app:srcCompat="@drawable/CPCGLogo" />
+        app:srcCompat="@drawable/garden_image_home" />
 
     <TextView
         android:id="@+id/notificationTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_constraintLeft="notificationTitle"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
