@@ -1,26 +1,27 @@
 package com.example.bluetoothscan;
 
 import android.Manifest;
-import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.dfrobot.angelo.blunobasicdemo.R;
 
 import androidx.annotation.RequiresApi;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.dfrobot.angelo.blunobasicdemo.R;
+
+import java.util.ArrayList;
+
 public class MainActivity  extends BlunoLibrary {
+
     private Button buttonScan;
     private Button buttonSerialSend;
     private EditText serialSendText;
@@ -119,12 +120,39 @@ public class MainActivity  extends BlunoLibrary {
         }
     }
 
+
+
+    ArrayList TempArray = new ArrayList();
+    ArrayList MoistureArray = new ArrayList();
+    ArrayList LightArray = new ArrayList();
+    int type_count = 0;
     @Override
     public void onSerialReceived(String theString) {							//Once connection data received, this function will be called
         // TODO Auto-generated method stub
-        serialReceivedText.append(theString);							//append the text into the EditText
+
+       float sensor_val = Float.parseFloat(theString);
+
+        if (type_count == 0){
+            TempArray.add(sensor_val);
+            type_count ++;
+        }
+        else if (type_count == 1){
+            MoistureArray.add(sensor_val);
+            type_count ++;
+        }
+        else if (type_count == 2){
+            LightArray.add(sensor_val);
+            type_count = 0;
+        }
+        System.out.println(TempArray);
+        System.out.println(MoistureArray);
+        System.out.println(LightArray);
+
+
+        /*serialReceivedText.append(theString);							//append the text into the EditText
         //The Serial data from the BLUNO may be sub-packaged, so using a buffer to hold the String is a good choice.
         ((ScrollView)serialReceivedText.getParent()).fullScroll(View.FOCUS_DOWN);
+         */
     }
 
 }

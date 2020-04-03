@@ -14,36 +14,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView"
-        android:layout_below="@+id/editText2"
-        android:layout_alignStart="@+id/editText2"
         android:layout_alignParentBottom="true"
         android:layout_alignEnd="@+id/buttonScan"
-        android:layout_alignLeft="@+id/editText2"
         android:layout_alignRight="@+id/buttonScan">
 
-        <TextView
-            android:id="@+id/serialReveicedText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:textSize="10sp"
-            android:layout_below="@+id/editText2"
-            android:layout_alignStart="@+id/editText2"
-            android:layout_alignEnd="@+id/serialSendText"
-            android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/editText2"
-            android:layout_alignRight="@+id/serialSendText" />
     </ScrollView>
-
-
-    <TextView
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:ems="10"
-        android:text="Received Data:"
-        android:textSize="25sp" />
 
 
     <Button
