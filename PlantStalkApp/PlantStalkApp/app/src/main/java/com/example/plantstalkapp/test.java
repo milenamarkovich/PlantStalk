@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.dfrobot.angelo.blunobasicdemo.R;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link test#newInstance} factory method to

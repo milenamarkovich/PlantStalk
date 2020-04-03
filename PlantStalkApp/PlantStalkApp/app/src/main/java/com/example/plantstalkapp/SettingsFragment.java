@@ -16,11 +16,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
+
+import com.dfrobot.angelo.blunobasicdemo.R;
+
+import org.w3c.dom.Text;
 
 public class SettingsFragment extends Fragment {
     private SettingsFragmentListener listener;
     private EditText editText;
     private Button buttonOk;
+
+    TextView text;
     //public CharSequence input;
 
     public interface SettingsFragmentListener {
@@ -31,8 +38,11 @@ public class SettingsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_settings, container, false);
+        super.onCreate(savedInstanceState);
 
+       View v = inflater.inflate(R.layout.fragment_settings, container, false);
+
+        //editText = text.findViewById(R.id.edit_text);
         editText = v.findViewById(R.id.edit_text);
         buttonOk = v.findViewById(R.id.button_ok);
 
@@ -46,13 +56,11 @@ public class SettingsFragment extends Fragment {
             }
         });
 
-
-
         return v;
     }
 
-    public void updateEditText(CharSequence newText){
-        editText.setText(newText);
+    public void updateEditText(CharSequence nexttext){
+        editText.setText(String.valueOf(nexttext));
     }
 //code below this crashes app
 

@@ -3,6 +3,7 @@ package com.example.plantstalkapp;
 import android.app.Notification;
 import android.content.Context;
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,14 +24,16 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 //notifications
+import com.dfrobot.angelo.blunobasicdemo.R;
+
 import static com.example.plantstalkapp.Notifications.CHANNEL_1_ID;
 import static com.example.plantstalkapp.Notifications.CHANNEL_2_ID;
 
 
 public class HomeFragment extends Fragment {
-    private HomeFragmentListener listener;
-    private EditText editText;
-    private Button buttonOk;
+    HomeFragmentListener listener;
+    EditText editText;
+    Button buttonOk;
 
     //notifications
     Button waterButton;
@@ -44,14 +47,13 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
+
         //notificationTitle.findViewById(R.id.notificationTitle);
         //notificationContent.findViewById(R.id.notificationContent);
 
-
-
         View v = inflater.inflate(R.layout.fragment_home, container, false);
 
-        editText =v.findViewById(R.id.edit_text);
+        editText = v.findViewById(R.id.edit_text);
         buttonOk = v.findViewById(R.id.button_ok);
         waterButton = v.findViewById(R.id.waterButton);
 
@@ -65,6 +67,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
 
                 CharSequence input = editText.getText();
+                
                 listener.onInputHomeSent(input);
             }
         });
