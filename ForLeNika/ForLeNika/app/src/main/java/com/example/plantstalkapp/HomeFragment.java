@@ -19,7 +19,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 //notifications
@@ -29,8 +28,6 @@ import static com.example.plantstalkapp.Notifications.CHANNEL_2_ID;
 
 public class HomeFragment extends Fragment {
     private HomeFragmentListener listener;
-    private EditText editText;
-    private Button buttonOk;
 
     //notifications
     Button waterButton;
@@ -43,7 +40,6 @@ public class HomeFragment extends Fragment {
 
     // for notification send. sets up going over to mainactivity from fragment
     public interface HomeFragmentListener {
-        void onInputHomeSent(CharSequence input);
         void notification();
     }
 
@@ -58,9 +54,6 @@ public class HomeFragment extends Fragment {
 
 
         View v = inflater.inflate(R.layout.fragment_home, container, false);
-
-        editText =v.findViewById(R.id.edit_text);
-        buttonOk = v.findViewById(R.id.button_ok);
         waterButton = v.findViewById(R.id.waterButton);
 
 
@@ -68,16 +61,7 @@ public class HomeFragment extends Fragment {
         notificationContent = v.findViewById(R.id.notificationContent);
 
 
-        buttonOk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                CharSequence input = editText.getText();
-                System.out.println("input: " + input);
-                CharSequence plswork = input;
-                listener.onInputHomeSent(plswork);
-            }
-        });
         waterButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -93,13 +77,6 @@ public class HomeFragment extends Fragment {
         return v;
     }
 
-
-
-
-
-    public void updateEditText(CharSequence newText){
-        editText.setText(newText);
-    }
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -110,7 +87,6 @@ public class HomeFragment extends Fragment {
                     + "must implement HomeFragmentListener you goofball");
         }
     }
-
 
     @Override
     public void onDetach() {

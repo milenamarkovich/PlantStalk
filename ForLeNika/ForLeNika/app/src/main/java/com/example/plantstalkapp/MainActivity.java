@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity
         fragmentSettings = new SettingsFragment();
         homeFragment = new HomeFragment();
 
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+       // super.onCreate(savedInstanceState);
+        //setContentView(R.layout.activity_main);
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
@@ -73,22 +73,22 @@ public class MainActivity extends AppCompatActivity
     }
 
 //code for interfragment communication of plant name not working
-    @Override
+    //@Override
     public void onInputHomeSent(CharSequence input) {
 
         if(input != null) {
-            fragmentSettings.updateEditText(input);
+       //     fragmentSettings.updateEditText(input);
         } else {
-            fragmentSettings.updateEditText("double sad");
+     //       fragmentSettings.updateEditText("double sad");
         }
     }
 
     @Override
     public void onInputSettingsSent(CharSequence input) {
         if(input != null) {
-            homeFragment.updateEditText(input);
+         //   homeFragment.updateEditText(input);
         }else{
-            homeFragment.updateEditText("sad");
+           // homeFragment.updateEditText("sad");
         }
     }
 
