@@ -1,0 +1,4 @@
+#Fri Apr 03 22:33:41 PDT 2020
+base.0=C\:\\Users\\Nika\\Documents\\GitHub\\PlantStalk\\ForLeNika\\ForLeNika\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
