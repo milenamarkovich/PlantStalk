@@ -36,6 +36,7 @@ public class Notifications extends Application {
             channel2.setDescription("This is the water channel");
 
             NotificationManager manager = getSystemService(NotificationManager.class);
+            assert manager != null;
             manager.createNotificationChannel(channel1);
             manager.createNotificationChannel(channel2);
         }

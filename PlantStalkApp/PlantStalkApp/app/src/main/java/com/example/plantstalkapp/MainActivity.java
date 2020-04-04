@@ -130,7 +130,7 @@ public class MainActivity  extends BlunoLibrary {
         }
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.fragment_settings);
         onCreateProcess();														//onCreate Process by BlunoLibrary
 
 
@@ -337,6 +337,7 @@ class MyFragment extends AppCompatActivity implements SettingsFragment.SettingsF
                             break;
                     }
 
+                    assert selectedFragment != null;
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                             selectedFragment).commit();
                     return true;  //to select clicked item

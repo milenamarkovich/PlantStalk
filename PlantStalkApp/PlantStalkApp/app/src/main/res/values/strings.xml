@@ -7,4 +7,5 @@
     <string name="error_bluetooth_not_supported" />
     <string name="unknown_device" />
     <string name="action_settings" />
+    <string name="scan">Scan</string>
 </resources>
